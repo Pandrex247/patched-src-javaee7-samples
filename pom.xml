@@ -52,7 +52,7 @@
             Application Server versions
             (these are downloaded and installed in these versions by Maven for the CI profiles)
          -->
-        <payara.version>7.2025.2</payara.version>
+        <payara.version>7.2026.5-SNAPSHOT</payara.version>
         <payara_domain>domain1</payara_domain>
         <glassfish.client.version>5.0</glassfish.client.version> <!-- For remote EJB for Payara and Glassfish -->
         <glassfish.version>4.1.1</glassfish.version>
@@ -273,43 +273,42 @@
         <dependency>
             <groupId>org.skyscreamer</groupId>
             <artifactId>jsonassert</artifactId>
-            <version>1.5.0</version>
+            <version>1.5.3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.htmlunit</groupId>
             <artifactId>htmlunit</artifactId>
-            <version>4.14.0</version>
+            <version>4.21.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20210307</version>
+            <version>20251224</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.awaitility</groupId>
             <artifactId>awaitility</artifactId>
-            <version>4.2.0</version>
+            <version>4.3.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.omnifaces</groupId>
             <artifactId>omniutils</artifactId>
-            <version>0.11</version>
+            <version>0.17</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>jakarta.xml.bind</groupId>
             <artifactId>jakarta.xml.bind-api</artifactId>
-            <version>3.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jaxb</groupId>
             <artifactId>jaxb-runtime</artifactId>
-            <version>3.0.1</version>
+            <version>4.0.7</version>
         </dependency>
     </dependencies>
 
